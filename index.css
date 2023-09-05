@@ -96,8 +96,9 @@ nav {
 .section-empresa p {
     font-size: 15px;
 }
-.section-empresa img {
-    width: 50%;
+.imgP {
+    margin: 100px 0px;
+    width: 100%;
 }
 
 /* Seccion de Imagenes */
