@@ -1,0 +1,114 @@
+
+body {
+    margin: 0%;
+    background: rgb(242, 205, 174);
+    position: absolute;
+    top: 20vh;
+}
+a {   
+    text-decoration: none;
+    color: #ffffff;
+}
+header{
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    background: #fff;
+    top: 0;
+}
+h3 {
+    color: #9f65ac;
+    font-size: 30px;
+}
+/* NAVEGADOR */
+nav {
+    height: 20vh;
+}
+.navegador{
+    height: 15vh;
+}
+.logoPrincipal{
+    height: 100%;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.input-buscador {
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 350px;
+}
+#Buscador {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #c494cf;
+}
+#Buscador:hover {
+    width: 600px;
+    color: #e953a3;
+    border: none;
+    border-bottom: 1px solid #c494cf;
+}
+
+.navLinks {
+    background: #b986c4;
+    display: flex;
+    justify-content: center;
+}
+
+.navLinks li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 30px;
+    position: relative;
+    left: 10px;
+}
+.navLinks a{
+    font-size: 20px;
+}
+.navLinks a:hover{
+    font-size: 22px;
+    transition: .3s all;
+}
+
+/*COPIADO DE L INDEX*/
+
+
+.container_agendas {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid yellowgreen;
+}
+
+.agendasFotos img {
+    width: 150px;
+    margin: 8px;
+}
+.astralFotos {
+    background-color: #e953a3;
+}
+.PediatricaFotos {
+    background: lightblue;
+}
+
+
+
+/*FOOOTER*/
+footer {
+    height: 100px;
+}
+#linksFooter {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.linksFooter a{
+        color: #e953a3;
+        padding: 5px 5px 0px 5px;
+        border-bottom: 3px solid #e953a3;
+}
