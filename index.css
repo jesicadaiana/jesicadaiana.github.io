@@ -1,12 +1,4 @@
-/*Colores: 
-#F252BA
-#EEAAFA
-#DB40D5
-#DB4075
-#FF4E54
-*/
-
-
+/*Index*/
 body {
     margin: 0%;
     position: absolute;
@@ -158,6 +150,7 @@ footer {
 
 
 
+
 @media only screen and (max-widht: 500px) {
     
 }
@@ -168,23 +161,25 @@ footer {
 /*Contacto*/
 
 .formulario {
+    width: 70vh;
     margin: 30px;
+    display: flex;
+}
+.form-div {
+    padding: 15px;
 }
 .form__contacto input {
-    width: 100%;
     padding: 12px 20px;
-    margin: 10px 10px;
-    display: inline-block;
-    border: 1px solid #ccc;
+    margin: 5px 5px;
+    border: 1px solid #ff9fe7;
     border-radius: 4px;
     cursor: text;
 }
 textarea {
-    width: 100%;
-    height: 150px;
+    width: 50%;
     padding: 12px 20px;
     margin: 10px 10px;
-    border: 2px solid #ccc;
+    border: 1px solid #ff9fe7;
     border-radius: 4px;
     background-color: #f8f8f8;
 }
@@ -195,5 +190,44 @@ textarea {
     cursor:default;
     border-radius: 5px;
 }
+.formulario img {
+    margin: 5px;
+    width: 300px;
+}
 
 /*Contacto*/
+
+
+/*AGENDAS*/
+
+.agenda-uni{
+    background-color: #d786a2;
+    display: flex;
+    flex-direction: row;
+}
+.agenda-uni li{
+    justify-content:space-around;
+    flex-direction:row;
+    width: 80%;
+}
+
+.agenda-uni img{
+    width:20%;
+}
+
+
+/*Contacto*/
+
+.redes {
+    width: 50%;
+    border: #DB4075;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+.imag-redes{
+    width:40% ;
+}
+.imag-redes img {
+    width: 40%;
+}
