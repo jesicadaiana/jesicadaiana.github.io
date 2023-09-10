@@ -50,7 +50,7 @@ nav {
 }
 #Buscador:hover {
     width: 600px;
-    color: #e953a3;
+    color: #FF4E54;
     border: none;
     border-bottom: 1px solid #FF4E54;
 }
@@ -80,7 +80,6 @@ nav {
 
 /* INICIO BODY */
 .section-empresa{
-    background:#e0d2ff;
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -103,13 +102,12 @@ nav {
 
 }
 .seccImgs__prod{
-    background: #e0d2ff;
     width: 25%;
     height: 300px;
     margin: 30px 10px;
     text-align: center;
     align-items: center;
-    border: 5px solid #cdbcf1;
+    border: 5px solid #c0b6d5;
 }
 .seccImgs__prod:hover{
     width: 28%;
@@ -126,25 +124,35 @@ nav {
 }
 .mas_flecha {
     display: flex;
-    width: 100%;
     justify-content: flex-end;
-    align-items: center;
 }
-
 .img-flecha{
     height: 65px;
     padding: 10px;
 }
+
 .img-flecha:hover {
     height: 80px;
     transition: .5s all;
 }
 
 footer {
-    height: 7vh;
-    background-color: #EEAAFA;
+    height: 10px;
+    background-color: #FF4E54;
+    display:block;
+}
+
+footer ul {
+    background: #FF4E54;
+    padding: 15px 15px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-around;
+}
+
+.footer li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 30px;
 }
 
 
@@ -154,9 +162,6 @@ footer {
 @media only screen and (max-widht: 500px) {
     
 }
-
-
-
 
 /*Contacto*/
 
@@ -171,7 +176,7 @@ footer {
 .form__contacto input {
     padding: 12px 20px;
     margin: 5px 5px;
-    border: 1px solid #ff9fe7;
+    border: 1px solid #b1a0d5;
     border-radius: 4px;
     cursor: text;
 }
@@ -179,12 +184,12 @@ textarea {
     width: 50%;
     padding: 12px 20px;
     margin: 10px 10px;
-    border: 1px solid #ff9fe7;
+    border: 1px solid #b1a0d5;
     border-radius: 4px;
     background-color: #f8f8f8;
 }
 .submit {
-    background: #EEAAFA;
+    background: #b1a0d5;
     color: #f8f8f8;
     font-size: 15px;
     cursor:default;
