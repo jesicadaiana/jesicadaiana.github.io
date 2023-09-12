@@ -46,17 +46,17 @@ nav {
 #Buscador {
     width: 400px;
     border: none;
-    border-bottom: 1px solid #FF4E54;
+    border-bottom: 1px solid #916ad6;
 }
 #Buscador:hover {
     width: 600px;
-    color: #FF4E54;
+    color: #916ad6;
     border: none;
-    border-bottom: 1px solid #FF4E54;
+    border-bottom: 1px solid #916ad6;
 }
 
 .links-navegador {
-    background: #FF4E54;
+    background: #916ad6;
     display: flex;
     justify-content: center;
 }
@@ -138,15 +138,16 @@ nav {
 
 footer {
     height: 10px;
-    background-color: #FF4E54;
+    background-color: #916ad6;
     display:block;
 }
 
 footer ul {
-    background: #FF4E54;
+    background: #916ad6;
     padding: 15px 15px;
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 
 .footer li {
@@ -154,7 +155,12 @@ footer ul {
     text-decoration: none;
     padding: 5px 30px;
 }
-
+.fa-home {
+    color: #ffffff;
+}
+.fa-envelope-o {
+    color: #ffffff;
+}
 
 
 
@@ -225,11 +231,12 @@ textarea {
 
 .redes {
     width: 50%;
-    border: #DB4075;
+    border: #916ad6;
     margin: 100px;
     display: flex;
     justify-content: center;
 }
+
 .imag-redes{
     width:40% ;
 }
