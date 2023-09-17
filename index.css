@@ -1,64 +1,57 @@
 /*Index*/
 body {
     margin: 0%;
-    position: absolute;
-    top: 15vh;
 }
 a {   
     text-decoration: none;
     color: #ffffff;
 }
-header{
+header {
+    background-color: #fff;
     width: 100%;
-    height: 20vh;
+    height: 10vh;
+    text-align:start;
     position: fixed;
-    background: #ffffff;
-    top: 0;
+    margin-left: 30px;
+
 }
-h3 {
+.logo-princ{
+    width: 90px;
+    margin: 5px;
+}
+
+h3, h2 {
     color: #DB4075;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Jost', sans-serif;
 }
-h1{
-    font-family: "Jost";
-    font-size: 20px;
-    color: #DB4075;
-}
+
 /* NAVEGADOR */
 nav {
-    height: 20vh;
-}
-.navegador{
     height: 15vh;
+    position: fixed;
+    margin: 100px 0px;
 }
-.logoPrincipal{
-    height: 100%;
-    margin-left: 120px;
-    margin-top: 10px;
-}
-.input-buscador {
-    display: inline-block;
-    position: absolute;
-    top: 80px;
-    left: 350px;
-}
-#Buscador {
-    width: 400px;
+
+.input-buscador{
+    width: 200px;
     border: none;
     border-bottom: 1px solid #916ad6;
+    position: relative;
+    top: 10px;
 }
-#Buscador:hover {
-    width: 600px;
+.input-buscador:hover {
+    width: 350px;
     color: #916ad6;
     border: none;
     border-bottom: 1px solid #916ad6;
 }
 
 .links-navegador {
-    background: #916ad6;
     display: flex;
     justify-content: center;
+    background-color: #fff;
+    width: 100%;
 }
 
 .links-navegador li {
@@ -67,9 +60,11 @@ nav {
     padding: 5px 30px;
     position: relative;
     left: 10px;
+    border-right: 1px solid #916ad6;
 }
 .links-navegador a{
     font-size: 15px;
+    color: #916ad6;
 }
 .links-navegador a:hover{
     font-size: 16px;
@@ -140,6 +135,7 @@ footer {
     height: 10px;
     background-color: #916ad6;
     display:block;
+    
 }
 
 footer ul {
@@ -148,6 +144,8 @@ footer ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    position: fixed;
+
 }
 
 .footer li {
